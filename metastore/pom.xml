@@ -121,14 +121,12 @@
       <artifactId>libthrift</artifactId>
       <version>${libthrift.version}</version>
     </dependency>
-    <!-- test intra-project -->
     <dependency>
       <groupId>org.apache.hive</groupId>
       <artifactId>hive-common</artifactId>
       <version>${project.version}</version>
-      <type>test-jar</type>
-      <scope>test</scope>
     </dependency>
+    <!-- test intra-project -->
     <!-- test inter-project -->
     <dependency>
       <groupId>junit</groupId>
