@@ -127,13 +127,6 @@
       <version>${project.version}</version>
     </dependency>
     <!-- test intra-project -->
-    <dependency>
-      <groupId>org.apache.hive</groupId>
-      <artifactId>hive-common</artifactId>
-      <type>test-jar</type>
-      <version>${project.version}</version>
-      <scope>test</scope>
-    </dependency>
     <!-- test inter-project -->
     <dependency>
       <groupId>junit</groupId>
